@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="28" skipped="1" failures="0" errors="0" time="0.121" hostname="Deokui-MacBook-Pro.local" timestamp="2020-02-12T16:59:26">
+<properties>
+<property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="/"/>
+<property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="gopherProxySet" value="false"/>
+<property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+<property name="java.class.path" value="/Users/dgpark/git/project/homework/build/classes/java/test:/Users/dgpark/git/project/homework/build/resources/test:/Users/dgpark/git/project/homework/build/classes/java/main:/Users/dgpark/git/project/homework/build/resources/main:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.6.0/83c9e737f6015d9e00029b9b1d51e952a884b8f9/junit-jupiter-engine-5.6.0.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/5.6.0/a8e5f7ae69043582a5ab05bdaa62ba4406f403f0/junit-vintage-engine-5.6.0.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.6.0/a3a6ec96c010875444b3ca31828108093758ec00/junit-platform-engine-1.6.0.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.6.0/f29e6318333d2303ce4965c9819cfad08de7d1e5/junit-jupiter-api-5.6.0.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.6.0/b0a75795cf03841d4f9cc54099557baffc11c727/junit-platform-commons-1.6.0.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/e49ccba652b735c93bd6e6f59760d8254cf597dd/junit-4.13.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.1/3892e08f30d92a88addc73f3a5f9575be864cec/junit-platform-console-1.0.1.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.1/5562631a34e4eefefdad04cdd49a50774d6ac777/junit-platform-launcher-1.0.1.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.1/4ce0a37866312c18ea3f45818f2faec077e46e0/junit-platform-engine-1.0.1.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.1/3632e4a74a43d3ae8d29e6fa172cbc29590bda03/junit-platform-commons-1.0.1.jar:/Users/dgpark/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar"/>
+<property name="java.class.version" value="55.0"/>
+<property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home"/>
+<property name="java.io.tmpdir" value="/var/folders/qc/h1p2zsqj2dl1q9z709z9bsp00000gn/T/"/>
+<property name="java.library.path" value="/Users/dgpark/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="11.0.2+9"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="11"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+<property name="java.vendor.version" value="18.9"/>
+<property name="java.version" value="11.0.2"/>
+<property name="java.version.date" value="2019-01-15"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="11"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="11.0.2+9"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="x86_64"/>
+<property name="os.name" value="Mac OS X"/>
+<property name="os.version" value="10.15.3"/>
+<property name="path.separator" value=":"/>
+<property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path /Users/dgpark/git/project/homework/build/classes/java/main:/Users/dgpark/git/project/homework/build/resources/main:/Users/dgpark/git/project/homework/build/classes/java/test:/Users/dgpark/git/project/homework/build/resources/test -n ^.*Tests?$ --reports-dir /Users/dgpark/git/project/homework/build/test-results/junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="user.country" value="KR"/>
+<property name="user.dir" value="/Users/dgpark/git/project/homework"/>
+<property name="user.home" value="/Users/dgpark"/>
+<property name="user.language" value="ko"/>
+<property name="user.name" value="dgpark"/>
+<property name="user.timezone" value="Asia/Seoul"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="multiThreadTest()" classname="net.class101.test.MultiThreadTest" time="0">
+<skipped><![CDATA[void net.class101.test.MultiThreadTest.multiThreadTest() throws net.class101.etc.SoldOutException,java.lang.InterruptedException is @Disabled]]></skipped>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.test.MultiThreadTest]/[method:multiThreadTest()]
+display-name: 멀티쓰레드 재고수동기화 테스트
+]]></system-out>
+</testcase>
+<testcase name="orderNumberCountAddTest()" classname="net.class101.ApplicationTest" time="0.038">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.ApplicationTest]/[method:orderNumberCountAddTest()]
+display-name: 주문(키트) => 같은상품 주문(+수량) => 상품 1개에 갯수추가
+]]></system-out>
+</testcase>
+<testcase name="testOrder1Test()" classname="net.class101.ApplicationTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.ApplicationTest]/[method:testOrder1Test()]
+display-name: 정상주문 테스트-주문 pdf 1번
+]]></system-out>
+</testcase>
+<testcase name="testOrder2Test()" classname="net.class101.ApplicationTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.ApplicationTest]/[method:testOrder2Test()]
+display-name: 정상주문 테스트-주문 pdf 2번(5만 원 미만 택배비포함)
+]]></system-out>
+</testcase>
+<testcase name="orderNumberCount0Test()" classname="net.class101.ApplicationTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.ApplicationTest]/[method:orderNumberCount0Test()]
+display-name: 주문 => 재고 0 => 주문완료 => 같은상품 주문 => 재고없음 안내문
+]]></system-out>
+</testcase>
+<testcase name="orderNumberLackTest()" classname="net.class101.ApplicationTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.ApplicationTest]/[method:orderNumberLackTest()]
+display-name: 같은상품을 잔고보다 많이 주문해 이후 주문에 재고없음 안내
+]]></system-out>
+</testcase>
+<testcase name="createObjectTest()" classname="net.class101.product.ProductClassTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductClassTest]/[method:createObjectTest()]
+display-name: 상품 오브젝트 생성 테스트
+]]></system-out>
+</testcase>
+<testcase name="createObjectNotNullTest()" classname="net.class101.product.ProductClassTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductClassTest]/[method:createObjectNotNullTest()]
+display-name: 상품 오브젝트 생성시 not-null 체크
+]]></system-out>
+</testcase>
+<testcase name="sellAfterSoldOutTest()" classname="net.class101.product.ProductKitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductKitTest]/[method:sellAfterSoldOutTest()]
+display-name: 판매 후 재고수량 0개일 때 SoldOut
+]]></system-out>
+</testcase>
+<testcase name="overSellTest()" classname="net.class101.product.ProductKitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductKitTest]/[method:overSellTest()]
+display-name: 재고수량보다 더 많이 팔 때
+]]></system-out>
+</testcase>
+<testcase name="orderKitTest()" classname="net.class101.product.ProductKitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductKitTest]/[method:orderKitTest()]
+display-name: 주문 갯수 테스트
+]]></system-out>
+</testcase>
+<testcase name="createObjectKitTest()" classname="net.class101.product.ProductKitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductKitTest]/[method:createObjectKitTest()]
+display-name: 키트 오브젝트 생성 테스트
+]]></system-out>
+</testcase>
+<testcase name="createObjectNotNullTest()" classname="net.class101.product.ProductKitTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductKitTest]/[method:createObjectNotNullTest()]
+display-name: 키트 오브젝트 생성시 not-null 체크
+]]></system-out>
+</testcase>
+<testcase name="createObjectTest()" classname="net.class101.order.OrderItemTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderItemTest]/[method:createObjectTest()]
+display-name: 오브젝트 생성 테스트
+]]></system-out>
+</testcase>
+<testcase name="checkAmountTest()" classname="net.class101.order.OrderItemTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderItemTest]/[method:checkAmountTest()]
+display-name: 금액비교 에러
+]]></system-out>
+</testcase>
+<testcase name="addItemCount()" classname="net.class101.order.OrderItemTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderItemTest]/[method:addItemCount()]
+display-name: 주문추가
+]]></system-out>
+</testcase>
+<testcase name="orderStringNoDeliveryTest()" classname="net.class101.order.OrderTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderTest]/[method:orderStringNoDeliveryTest()]
+display-name: 주문해내역 보기-배송비없이
+]]></system-out>
+</testcase>
+<testcase name="orderStringPlusDelivaryTest()" classname="net.class101.order.OrderTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderTest]/[method:orderStringPlusDelivaryTest()]
+display-name: 주문해내역 보기-배송비있게
+]]></system-out>
+</testcase>
+<testcase name="checkStockNumTest()" classname="net.class101.order.OrderTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderTest]/[method:checkStockNumTest()]
+display-name: 주문 후 재고가 줄어드는지 확인
+]]></system-out>
+</testcase>
+<testcase name="addClassTest()" classname="net.class101.order.OrderTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderTest]/[method:addClassTest()]
+display-name: 주문추가-클래스
+]]></system-out>
+</testcase>
+<testcase name="addStockTest()" classname="net.class101.order.OrderTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderTest]/[method:addStockTest()]
+display-name: 주문추가-키트(재고있는 상품)
+]]></system-out>
+</testcase>
+<testcase name="duplClassTest()" classname="net.class101.order.OrderTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.order.OrderTest]/[method:duplClassTest()]
+display-name: [에러]주문추가-클래스중복
+]]></system-out>
+</testcase>
+<testcase name="getProductHasStockTest()" classname="net.class101.product.ProductManagerTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductManagerTest]/[method:getProductHasStockTest()]
+display-name: 키트 객체(재고있는 상품) 조회
+]]></system-out>
+</testcase>
+<testcase name="checkStockNumSyncTest()" classname="net.class101.product.ProductManagerTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductManagerTest]/[method:checkStockNumSyncTest()]
+display-name: 재고동기화 학인
+]]></system-out>
+</testcase>
+<testcase name="getProductClassTest()" classname="net.class101.product.ProductManagerTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductManagerTest]/[method:getProductClassTest()]
+display-name: 클래스 객체 조회
+]]></system-out>
+</testcase>
+<testcase name="checkSingletonTest()" classname="net.class101.product.ProductManagerTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductManagerTest]/[method:checkSingletonTest()]
+display-name: 싱글톤 오프젝트 확인
+]]></system-out>
+</testcase>
+<testcase name="showProductListTest()" classname="net.class101.product.ProductManagerTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductManagerTest]/[method:showProductListTest()]
+display-name: 상품목록 조회
+]]></system-out>
+</testcase>
+<testcase name="checkEmptyProductTest()" classname="net.class101.product.ProductManagerTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:net.class101.product.ProductManagerTest]/[method:checkEmptyProductTest()]
+display-name: 없는상품을 조회할 때
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
